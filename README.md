@@ -26,7 +26,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - { role: firewall-disable }
+    - { role: galaxy-firewall-disable }
 ```
 
 License
