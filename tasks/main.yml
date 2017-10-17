@@ -1,0 +1,5 @@
+---
+---
+- name: disable firewall
+  systemd: name=firewalld enabled=no daemon_reload=yes state=stopped
+  ignore_errors: True
