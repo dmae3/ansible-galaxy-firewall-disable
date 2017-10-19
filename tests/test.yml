@@ -2,4 +2,4 @@
 - hosts: all
   remote_user: root
   roles:
-    - firewall-disable
+    - galaxy-firewall-disable
